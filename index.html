@@ -11,10 +11,43 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <form action="">
-        <input type="email" placeholder="Your email">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button type="submit">Submit</button>
-    </form>    
+    <main class="parchment">
+        <form class="form" action="">
+            <h1 class="form-title la-belle-aurore-regular">Your Lord Needs You!</h1>
+            <h2 class="form-info shadows-into-light-regular"> Your Lord has been called to war by the King and hereby 
+                summons you to fulfill your duty to him as his subject. You are ordered to
+                fill out this form so that we can organize you into proper ranks and file.
+                Submit the form early and you will get first dibs on looting and pillaging.
+                You would do well to remember that those who do not submit the form at 
+                all will be rounded up and placed in the front lines. Also, if you do
+                not know how to write or if you lost your writing arm in the last war you
+                can come down to the castle and we will help you fill out the form. See the front gate
+                for opening hours.
+            </h2>
+            <label for="name" class="nothing-you-could-do-regular label">Your Given Name</label>
+            <input type="text" name="name" id="name" class="name" placeholder="Write your name here">
+            <label for="name" class="nothing-you-could-do-regular label">Your Father's Name</label>
+            <input type="text" name="name" id="name" class="name" placeholder="Write your fathers name">
+            <label for="name" class="nothing-you-could-do-regular label">Your Village Name</label>
+            <input type="name" placeholder="Write name of village">
+            <label for="weapon-choice" class="label">Select which weapon you will bring</label>
+            <select name="weapon-choice" id="weapon-of-choice">
+                <option value="weapon">Pitchfork</option>
+                <option value="weapon">Shovel</option>
+                <option value="weapon">Axe</option>
+                <option value="weapon">My father's old sword</option>
+            </select>
+            <label for="armour-choice" class="label">Select which armour you will bring</label>
+            <select name="armour-choice" id="armour-of-choice">
+                <option value="armour">Bucket</option>
+                <option value="armour">Straw stuffed in shirt</option>
+                <option value="armour">Pots and pans</option>
+                <option value="armour">My father's old armour</option>
+            </select>
+            <label for="pledge" class="nothing-you-could-do-regular label">Pledge Your Allegiance to Your Lord and King!</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your sincere pledge here"></textarea>
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </main>    
 </body>
 </html>
