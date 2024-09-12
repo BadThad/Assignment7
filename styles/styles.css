@@ -1,0 +1,60 @@
+/* --- Fonts --- */
+
+.la-belle-aurore-regular {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.nothing-you-could-do-regular {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* --- Site styling --- */
+
+.parchment {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/background_peasants.png);
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.form {
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 100%;
+    min-height: 600px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title{
+    text-align: center;
+}
+
+.form-info {
+    font-size: 20px;
+}
+
+.form-title, .form-info {
+    background-color: rgba(206, 185, 158, 0.842);
+    border: 2px solid rgb(113, 101, 85);
+    padding: 15px 10px;
+    box-shadow: 0 1px 2px black;
+}
