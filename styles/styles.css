@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(/images/background_peasants.png);
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-size: auto;
@@ -42,6 +42,8 @@
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .form-title{
@@ -53,8 +55,41 @@
 }
 
 .form-title, .form-info {
-    background-color: rgba(206, 185, 158, 0.842);
+    background-color: rgba(206, 185, 158, 1);
     border: 2px solid rgb(113, 101, 85);
     padding: 15px 10px;
     box-shadow: 0 1px 2px black;
+}
+
+.label {
+    background-color: rgba(206, 185, 158, 1);
+    border: 1px solid rgb(113, 101, 85);
+    width: 80%;
+    padding: 5px 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.input-field, .selector {
+    background-color: lightgrey;
+    border: 2px solid rgb(113, 101, 85);
+    box-sizing: border-box;
+    width: 82.5%;
+    padding: 5px 5px;
+    min-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.input-field::placeholder {
+    color: rgba(92, 92, 92, 0.9);
+}
+
+.pledge-field {
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    width: 82.5%;
+    padding: 5px 5px;
+    min-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px;
 }
