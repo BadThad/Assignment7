@@ -25,8 +25,24 @@
                 art to speedily make thy way to the castle and we will help thee fill out the form. 
                 See the front gate for opening hours.
             </h2>
+            <label class="label nothing-you-could-do-regular checkbox-container">How many wars hast thou partaken in?
+                <div class="checkbox-list">
+                    <label class="checkbox ">None
+                        <input type="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox">One
+                        <input type="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox">Two
+                        <input type="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </label>
             <label for="name" class="nothing-you-could-do-regular label">Thy Given Name</label>
-            <input type="text" name="name" id="name" class="input-field" placeholder="Write thy name here" required autofocus>
+            <input type="text" name="name" id="name" class="input-field" placeholder="Write thy name here" required>
             <label for="name" class="nothing-you-could-do-regular label">Thy Father's Name</label>
             <input type="text" name="name" id="name" class="input-field" placeholder="Write thy fathers name" required>
             <label for="name" class="nothing-you-could-do-regular label">Thy Village Name</label>
@@ -47,7 +63,7 @@
                 <option value="armour" selected>None &#40Thee will have to stuff grass into thine jerkin&#41</option>
             </select>
             <label for="pledge" class="nothing-you-could-do-regular label">Pledge Thine Allegiance to Thy Lord and King!</label>
-            <textarea name="pledge" class="pledge-field" cols="30" rows="10" placeholder="Write thy sincere pledge here"></textarea>
+            <textarea name="pledge" class="pledge-field" cols="30" rows="5" placeholder="Write thy sincere pledge here"></textarea>
             <button type="submit" id="submit-btn">Answer the Summons</button>
         </form>
     </main>    
