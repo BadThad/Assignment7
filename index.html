@@ -12,9 +12,9 @@
 </head>
 <body>
     <main class="parchment">
+        <h1 class="form-title la-belle-aurore-regular">Thy Lord Summons Thee!</h1>
+        <h2 class="form-info shadows-into-light-regular">Hear ye! Hear ye!</h2>
         <form class="form" action="">
-            <h1 class="form-title la-belle-aurore-regular">Thy Lord Summons Thee!</h1>
-            <h2 class="form-info shadows-into-light-regular">Hear ye! Hear ye!</h2>
             <h2 class="form-info shadows-into-light-regular">Thy Lord hath been called to war 
                 by his majesty The King and hereby summons thee to fulfill thy duty to him as his subject. 
                 Thou art hereby ordered to complete this form so that we can forthwith organize thee into proper 
@@ -43,24 +43,24 @@
             </label>
             <label for="name" class="nothing-you-could-do-regular label">Thy Given Name</label>
             <input type="text" name="name" id="name" class="input-field" placeholder="Write thy name here" required>
-            <label for="name" class="nothing-you-could-do-regular label">Thy Father's Name</label>
-            <input type="text" name="name" id="name" class="input-field" placeholder="Write thy fathers name" required>
-            <label for="name" class="nothing-you-could-do-regular label">Thy Village Name</label>
-            <input type="name" class="input-field" placeholder="Write the name of thy village" required>
+            <label for="fathersname" class="nothing-you-could-do-regular label">Thy Father's Name</label>
+            <input type="text" name="fathersname" id="fathersname" class="input-field" placeholder="Write thy fathers name" required>
+            <label for="villagename" class="nothing-you-could-do-regular label">Thy Village Name</label>
+            <input type="text" name="villagename" id="villagename" class="input-field" placeholder="Write the name of thy village" required>
             <label for="weapon-choice" class="nothing-you-could-do-regular label">Select which weapon thou will bring</label>
             <select name="weapon-choice" class="selector" id="weapon-of-choice">
-                <option value="weapon">Pitchfork</option>
-                <option value="weapon">Shovel</option>
-                <option value="weapon">Axe</option>
-                <option value="weapon">Mine father's old sword</option>
-                <option value="weapon" selected>None &#40Thee will recieve a standard issue stick&#41</option>
+                <option value="weapon-pitchfork">Pitchfork</option>
+                <option value="weapon-shovel">Shovel</option>
+                <option value="weapon3-axe">Axe</option>
+                <option value="weapon-oldsword">Mine father's old sword</option>
+                <option value="weapon-stick" selected>None &#40Thee will recieve a standard issue stick&#41</option>
             </select>
             <label for="armour-choice" class="nothing-you-could-do-regular label">Select which armour thou will bring</label>
             <select name="armour-choice" class="selector" id="armour-of-choice">
-                <option value="armour">Bucket</option>
-                <option value="armour">Pots and pans</option>
-                <option value="armour">Mine father's old armour</option>
-                <option value="armour" selected>None &#40Thee will have to stuff grass into thine jerkin&#41</option>
+                <option value="armour-bucket">Bucket</option>
+                <option value="armour-pots">Pots and pans</option>
+                <option value="armour-oldarmour">Mine father's old armour</option>
+                <option value="armour-none" selected>None &#40Thee will have to stuff grass into thine jerkin&#41</option>
             </select>
             <label for="pledge" class="nothing-you-could-do-regular label">Pledge Thine Allegiance to Thy Lord and King!</label>
             <textarea name="pledge" class="pledge-field" cols="30" rows="5" placeholder="Write thy sincere pledge here"></textarea>
