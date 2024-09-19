@@ -24,6 +24,7 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(/images/background_peasants.png);
@@ -105,8 +106,4 @@
     justify-content: space-evenly;
     margin-top: 10px;
     margin-bottom: 5px;
-}
-
-.checkbox {
-    
 }
